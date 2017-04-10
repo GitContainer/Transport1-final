@@ -121,6 +121,8 @@ while (x < 10 ):
                     Vapor_press_final = vapor_pressure_N_m
                     Vapor2 = vapor_pressure_N_m = (e ** (A_antoine - B_antoine / (177 + C_antoine)) ) *100000
                     density_final = rho_kg_m
+                    v_out_final = v_out_m_s
+                    v_in_final = v_in_m_s
 
 
                 else:
@@ -130,11 +132,9 @@ while (x < 10 ):
 print "CV = %f" % CV_final
 print "B final = %f" % B_final
 print "Temp final = %f" % Temp_final
-print "Precent open = %f" % percent_open_final
+print "Percent open = %f" % percent_open_final
 print "Pipe diameter = %f" % D_Pipe_meters_final
-print "fails = %f" % fails
 print "Vapor Pressure = %f" % Vapor_press_final
-print "Vapor2 = %f" % Vapor2
 print "density final = %f " % density_final
 
 
